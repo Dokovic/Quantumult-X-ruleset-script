@@ -157,13 +157,13 @@ hostname = duckduckgo.com
 ^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ url 302 https://cn.bing.com/search?q=$1
 
 # bd: 百度
-^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ url 302 https://www.baidu.com/s?wd=$1
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ url 302 https://m.baidu.com/s?from=844b&word=$1
 
 # ddg: DuckDuckGo 
 ^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ url 302 https://duckduckgo.com/?ia=about&q=$1
 
-# yx:Yandex
-^https:\/\/duckduckgo.com\/\?q=yx\+([^&]+).+ url 302 https://yandex.ru/?ia=about&q=$1
+# ydx:Yandex
+^https:\/\/duckduckgo.com\/\?q=ydx\+([^&]+).+ url 302 https://yandex.ru/search/touch/?text=$1
 
 # 无指令: 谷歌
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ url 302 https://www.google.com/search?q=$1
