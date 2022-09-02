@@ -4,7 +4,7 @@ Keep maintenance in the future
 
 ## Search module:in the file(Important:Make sure Safari search engine is set to duckduckgo)
 ## Premium module:in the file(Lightroom,Spotify,Picsew,Duolingo,AdGuard,Documents,Emby)
-## Filter module:ip-cidr ad block(Beta)
+## Filter module:ip-cidr ad block
 
 Update
   > 0.0.1:Fix the Google search error,fix baidu search redirects to the brife version
